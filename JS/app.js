@@ -15,3 +15,10 @@ function logic (){
     console.log("sissors wins")
   }
 }
+
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $(".test").hide();
+  });
+});
