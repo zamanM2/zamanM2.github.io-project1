@@ -70,6 +70,9 @@ this.input = " ";
    let newPlayer1 = new player1();
    let newPlayerTwo = new playerTwo();
 
+   console.log(newPlayer1);
+   console.log(playerTwo);
+
 
 
 // class playerTwo{
