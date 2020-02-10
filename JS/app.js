@@ -9,7 +9,7 @@ constructor(){
 
  this.hp = 20;
 const input = " ";
-const userInput = $(input[type = "button"]).val();
+// const userInput = $(input[type = "button"]).val();
 
 
   }
@@ -21,7 +21,7 @@ constructor(){
 
 const hp= 20;
 const input = " ";
-const userInput = $(input[type = "button"]).val();
+// const userInput = $(input[type = "button"]).val();
   }
 
 }
@@ -67,6 +67,10 @@ const userInput = $(input[type = "button"]).val();
 
   });
 
+   let newPlayer1 = new player1();
+   let newPlayer2 = new player2();
+
+   console.log(newPlayer1);
 
 
 
