@@ -82,6 +82,7 @@ this.input = " ";
 
 // }
 
+//Stage generate function
 function stagegen(){
   let generate= Math.floor(Math.random() * 6) + 0;
   let stages = ["url('https://vignette.wikia.nocookie.net/ssb/images/2/23/BoxingRingPunchOut.jpg/revision/latest?cb=20140409192407')",
