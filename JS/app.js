@@ -8,19 +8,19 @@ class player1{
 constructor(){
 
  this.hp = 20;
-const input = " ";
-// const userInput = $(input[type = "button"]).val();
+this.input = " ";
+//this.userInput = $(input[type = "button"]).val();
 
 
   }
 
 }
 
-class player2{
+class playerTwo{
 constructor(){
 
-const hp= 20;
-const input = " ";
+this.hp= 20;
+this.input = " ";
 // const userInput = $(input[type = "button"]).val();
   }
 
@@ -68,9 +68,35 @@ const input = " ";
   });
 
    let newPlayer1 = new player1();
-   let newPlayer2 = new player2();
+   let newPlayerTwo = new playerTwo();
 
-   console.log(newPlayer1);
+
+
+// class playerTwo{
+// constructor(){
+
+// this.hp= 20;
+// this.input = " ";
+// // const userInput = $(input[type = "button"]).val();
+//   }
+
+// }
+
+function stagegen(){
+  let generate= Math.floor(Math.random() * 6) + 0;
+  let stages = ["url('https://vignette.wikia.nocookie.net/ssb/images/2/23/BoxingRingPunchOut.jpg/revision/latest?cb=20140409192407')",
+                 "url('https://www.ssbwiki.com/images/thumb/8/86/SSBU-Battlefield.png/1200px-SSBU-Battlefield.png')",
+                 "url('https://www.ssbwiki.com/images/thumb/4/43/SSBU-Mementos.jpg/1200px-SSBU-Mementos.jpg')",
+                 "url('https://www.ssbwiki.com/images/thumb/8/82/SSBU-3D_Land.png/1200px-SSBU-3D_Land.png')",
+                 "url('https://vignette.wikia.nocookie.net/ssb/images/d/d7/SSBWU_Kongo_Jungle_64.jpg/revision/latest?cb=20151113183454')",
+                 "url('https://mariopartylegacy.com/wp-content/uploads/2018/07/stage11.jpg')"];
+  document.getElementById("generate").style.backgroundImage=stages[generate];
+}
+
+
+
+
+
 
 
 

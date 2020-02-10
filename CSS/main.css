@@ -1,5 +1,5 @@
 body{
-  background-image: url('https://www.laserfiche.com/wp-content/uploads/2016/01/shutterstock_284660570-rs.jpg');
+  background-image: url('https://i.pinimg.com/originals/ec/bd/63/ecbd639262107124e41e1a702365df77.jpg');
 
 }
 
@@ -20,14 +20,14 @@ height: 200px;*/
 }
 
 
-#player2-button{
+#playerTwo-button{
 
 flex-direction:column;
 justify-content:flex-end;
 
 }
 
-#player2{
+#playerTwo{
   display:flex;
   justify-content:flex-end;
   font-size: 40px;
@@ -39,5 +39,20 @@ justify-content:flex-end;
   justify-content:flex-start;
   font-size: 40px;
   color:purple;
+}
+
+
+
+#generate{
+  /* BOX MODEL */
+  width: 100%;
+  height: 450px;
+  border: 1px solid ;
+
+  /* ENHANCEMENT */
+  /*background-image: url('https://i.pinimg.com/originals/ec/bd/63/ecbd639262107124e41e1a702365df77.jpg');*/
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
