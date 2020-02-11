@@ -12,6 +12,11 @@ const ELEMENT_4_HP = 3;
 
 const ELEMENT_5_HP = 5;
 
+document.getElementById("sub").style.display = "none";
+document.getElementById("scorpion").style.display = "none";
+document.getElementById("raiden").style.display = "none";
+document.getElementById("shao").style.display = "none";
+
 
 
 $(document).ready(function(){
@@ -193,6 +198,8 @@ console.log("Hp is " + newPlayer1.hp);
 //      player1 ;
 
 // }
+
+
 
 
 
