@@ -1,3 +1,20 @@
+
+const ELEMENT_1_ATTACK = 8;
+const ELEMENT_1_HP = 1;
+
+const ELEMENT_2_ATTACK = 5;
+const ELEMENT_2_HP = 1;
+
+const ELEMENT_3_ATTACK = 4;
+const ELEMENT_3_HP = 2;
+
+const ELEMENT_4_ATTACK = 3;
+const ELEMENT_4_HP = 3;
+
+const ELEMENT_5_HP = 5;
+
+
+
 $(document).ready(function(){
   $("button").click(function(){
     $(".test").hide();
@@ -26,64 +43,59 @@ this.input = " ";
 
 }
 
+   let newPlayer1 = new player1();
+   let newPlayerTwo = new playerTwo();
 
  $( "#element1" ).click(function() {
    console.log( "element1" );
 
-   let hpToTakeAway = "";
-   let attackDamage = "";
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_1_ATTACK;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_1_HP;
+
+   console.log(newPlayer1.hp);
+
+
+   // let hpToTakeAway = "";
+   // let attackDamage = "";
 
   });
 
   $( "#element2" ).click(function() {
    console.log( "element2" );
 
-   let hpToTakeAway = "";
-   let attackDamage = "";
-
+  newPlayer1.hp = newPlayer1.hp - ELEMENT_2_ATTACK;
+  newPlayer1.hp = newPlayer1.hp + ELEMENT_2_HP;
+console.log(newPlayer1.hp);
   });
 
    $( "#element3" ).click(function() {
    console.log( "element3" );
 
-   let hpToTakeAway = "";
-   let attackDamage = "";
-
+  newPlayer1.hp = newPlayer1.hp - ELEMENT_3_ATTACK;
+   newPlayer1.hp = newPlayer1.hp + ELEMENT_3_HP;
+console.log(newPlayer1.hp);
   });
 
     $( "#element4" ).click(function() {
    console.log( "element4" );
 
-   let hpToTakeAway = "";
-   let attackDamage = "";
-
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_4_ATTACK;
+   newPlayer1.hp = newPlayer1.hp + ELEMENT_4_HP;
+   console.log(newPlayer1.hp);
   });
 
    $( "#element5" ).click(function() {
    console.log( "element5" );
 
-   let hpToTakeAway = "";
-   let attackDamage = "";
+  newPlayer1.hp = newPlayer1.hp + ELEMENT_5_HP;
+  console.log(newPlayer1.hp);
 
   });
 
-   let newPlayer1 = new player1();
-   let newPlayerTwo = new playerTwo();
-
-   console.log(newPlayer1);
-   console.log(playerTwo);
+   // let newPlayer1 = new player1();
+   // let newPlayerTwo = new playerTwo();
 
 
-
-// class playerTwo{
-// constructor(){
-
-// this.hp= 20;
-// this.input = " ";
-// // const userInput = $(input[type = "button"]).val();
-//   }
-
-// }
 
 //Stage generate function
 function stagegen(){
@@ -96,25 +108,6 @@ function stagegen(){
                  "url('https://mariopartylegacy.com/wp-content/uploads/2018/07/stage11.jpg')"];
   document.getElementById("generate").style.backgroundImage=stages[generate];
 }
-
-
-
-
-
-
-
-
-// function logic (){
-//   if(x === y){
-//     console.log("papers wins")
-//   }
-//   else if (x === z){
-//     console.log("rock wins")
-//   }
-//   else if (y === z){
-//     console.log("sissors wins")
-//   }
-// }
 
 
 
