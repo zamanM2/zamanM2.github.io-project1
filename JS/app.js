@@ -13,9 +13,9 @@ const ELEMENT_4_HP = 3;
 const ELEMENT_5_HP = 5;
 
 // Hide all the characters from appearing untill one is selected by player
-document.getElementById("sub").style.display = "none";
-document.getElementById("scorpion").style.display = "none";
-document.getElementById("raiden").style.display = " display";
+document.getElementById("sub").style.display = "display";
+document.getElementById("scorpion").style.display = " display";
+document.getElementById("raiden").style.display = " none";
 document.getElementById("shao").style.display = "none";
 
 
@@ -195,17 +195,6 @@ this.input = " ";
      player1 ;
 }
 
-   //   player1 = prompt("Choose your avatar");
-
-   //  if (player1!= null) {
-   //  $( "#element8" ).click(function() {
-   // console.log( "element8" );
-   //  //document.getElementById("sub"||"shao"||"raiden"||"scorpion").innerHTML =
-
-   //   document.getElementById("scorpion").style.display;
-   //  }
-//}
-
 
 
      playerTwo = prompt("Please enter your name", " ");
@@ -218,6 +207,19 @@ this.input = " ";
 
 }
 
+
+   //   player1 = prompt("Choose your avatar");
+
+   //  if (player1!= null) {
+   //  $( "#element8" ).click(function() {
+   // console.log( "element8" );
+   //  //document.getElementById("sub"||"shao"||"raiden"||"scorpion").innerHTML =
+
+   //   document.getElementById("scorpion").style.display;
+   //  }
+//}
+
+
 //Stage generate function
 function stagegen(){
   let generate= Math.floor(Math.random() * 6) + 0;
@@ -229,6 +231,23 @@ function stagegen(){
                  "url('https://mariopartylegacy.com/wp-content/uploads/2018/07/stage11.jpg')"];
   document.getElementById("generate").style.backgroundImage=stages[generate];
 }
+
+// do {
+//   if(newPlayer1.attk){
+//     document.getElementById("meter2").innerHTML  = newPlayerTwo.hp -ELEMENT_1_ATTACK;
+//   }
+// else if(newPlayerTwo.attk){
+//    document.getElementById("meter1").innerHTML  = newPlayer1.hp -ELEMENT_1_ATTACK;
+//   }
+// }
+// while (newPlayerTwo.hp !== 0 || newplayer1.hp !==0);
+
+
+
+
+
+
+
 
 
 

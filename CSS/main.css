@@ -70,7 +70,7 @@ justify-content:flex-end;
 }
 
 #meter1 {
-  height: 10px;
+  height: 40px;
   position: relative;
   background: purple;
   -moz-border-radius: 25px;
@@ -81,7 +81,7 @@ justify-content:flex-end;
 }
 
 #meter2 {
-  height: 10px;
+  height: 40px;
   position: relative;
   background: gold;
   -moz-border-radius: 25px;
