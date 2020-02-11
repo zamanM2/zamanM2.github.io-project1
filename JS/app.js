@@ -46,6 +46,7 @@ this.input = " ";
    let newPlayer1 = new player1();
    let newPlayerTwo = new playerTwo();
 
+   //Player 1 Buttons
  $( "#element1" ).click(function() {
    console.log( "element1" );
 
@@ -94,6 +95,68 @@ console.log("Hp is " + newPlayer1.hp);
 
    $( "#element5" ).click(function() {
    console.log( "element5" );
+
+  newPlayer1.hp = newPlayer1.hp + ELEMENT_5_HP;
+  console.log("Hp is " +newPlayer1.hp);
+
+  });
+
+
+   //Player 2 buttons
+   $( "#element6" ).click(function() {
+   console.log( "element6" );
+
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_HP;
+
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_1_ATTACK;
+
+   console.log("Hp is " + newPlayerTwo.hp);
+   console.log("Attk is " + newPlayerTwo.attk);
+
+  });
+
+  $( "#element7" ).click(function() {
+   console.log( "element7" );
+
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_2_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_2_HP;
+
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_2_ATTACK;
+
+   console.log("Hp is " + newPlayerTwo.hp);
+   console.log("Attk is " + newPlayerTwo.attk);
+
+  });
+
+   $( "#element8" ).click(function() {
+   console.log( "element8" );
+
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_3_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_3_HP;
+
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_3_ATTACK;
+
+   console.log("Hp is " + newPlayerTwo.hp);
+   console.log("Attk is " + newPlayerTwo.attk);
+
+  });
+
+    $( "#element9" ).click(function() {
+   console.log( "element9" );
+
+    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_4_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_4_HP;
+
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_4_ATTACK;
+
+   console.log("Hp is " + newPlayerTwo.hp);
+   console.log("Attk is " + newPlayerTwo.attk);
+
+  });
+
+   $( "#element10" ).click(function() {
+   console.log( "element10" );
 
   newPlayer1.hp = newPlayer1.hp + ELEMENT_5_HP;
   console.log("Hp is " +newPlayer1.hp);
