@@ -52,57 +52,62 @@ this.input = " ";
    let newPlayerTwo = new playerTwo();
 
 
-   $("#player1")
 
-
-
-   //Player 1 Buttons
+  //Player 1 Buttons
  $( "#element1" ).click(function() {
    console.log( "element1" );
 
-   newPlayer1.hp = newPlayer1.hp - ELEMENT_1_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_ATTACK;
    newPlayer1.hp = newPlayer1.hp - ELEMENT_1_HP;
 
    newPlayer1.attk = newPlayerTwo.hp -ELEMENT_1_ATTACK;
 
-   console.log("Hp is " + newPlayer1.hp);
-   console.log("Attk is " + newPlayer1.attk);
+   console.log(" Player2 was attacked ! Hp is " + newPlayerTwo.hp);
+   console.log("Attk did " + newPlayer1.attk + " Damage");
+   console.log("Current player1 hp is " + newPlayer1.hp );
 
   });
 
   $( "#element2" ).click(function() {
    console.log( "element2" );
 
-  newPlayer1.hp = newPlayer1.hp - ELEMENT_2_ATTACK;
-  newPlayer1.hp = newPlayer1.hp + ELEMENT_2_HP;
+     newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_2_ATTACK;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_2_HP;
 
-  newPlayer1.attk = newPlayerTwo.hp -ELEMENT_2_ATTACK;
-console.log("Hp is " + newPlayer1.hp);
-   console.log("Attk is " + newPlayer1.attk);
+   newPlayer1.attk = newPlayerTwo.hp -ELEMENT_2_ATTACK;
+
+   console.log(" Player2 was attacked ! Hp is " + newPlayerTwo.hp);
+   console.log("Attk did " + newPlayer1.attk + " Damage");
+   console.log("Current player1 hp is " + newPlayer1.hp );
+
   });
 
    $( "#element3" ).click(function() {
    console.log( "element3" );
 
-  newPlayer1.hp = newPlayer1.hp - ELEMENT_3_ATTACK;
-   newPlayer1.hp = newPlayer1.hp + ELEMENT_3_HP;
+    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_3_ATTACK;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_3_HP;
 
    newPlayer1.attk = newPlayerTwo.hp -ELEMENT_3_ATTACK;
 
-   console.log("Hp is " + newPlayer1.hp);
-   console.log("Attk is " + newPlayer1.attk);
+   console.log(" Player2 was attacked ! Hp is " + newPlayerTwo.hp);
+   console.log("Attk did " + newPlayer1.attk + " Damage");
+   console.log("Current player1 hp is " + newPlayer1.hp );
+
   });
 
     $( "#element4" ).click(function() {
    console.log( "element4" );
 
-   newPlayer1.hp = newPlayer1.hp - ELEMENT_4_ATTACK;
-   newPlayer1.hp = newPlayer1.hp + ELEMENT_4_HP;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_4_ATTACK;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_4_HP;
 
    newPlayer1.attk = newPlayerTwo.hp -ELEMENT_4_ATTACK;
 
-   console.log("Hp is " + newPlayer1.hp);
-   console.log("Attk is " + newPlayer1.attk);
+   console.log(" Player2 was attacked ! Hp is " + newPlayerTwo.hp);
+   console.log("Attk did " + newPlayer1.attk + " Damage");
+   console.log("Current player1 hp is " + newPlayer1.hp );
+
   });
 
    $( "#element5" ).click(function() {
@@ -118,60 +123,65 @@ console.log("Hp is " + newPlayer1.hp);
    $( "#element6" ).click(function() {
    console.log( "element6" );
 
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_ATTACK;
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_HP;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_6_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_6_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_1_ATTACK;
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_6_ATTACK;
 
-   console.log("Hp is " + newPlayerTwo.hp);
-   console.log("Attk is " + newPlayerTwo.attk);
+   console.log(" Player1 was attacked ! Hp is " + newPlayer1.hp);
+   console.log("Attk did " + newPlayerTwo.attk + " Damage");
+   console.log("Current player2 hp is " + newPlayerTwo.hp );
+
 
   });
 
   $( "#element7" ).click(function() {
    console.log( "element7" );
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_7_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_7_HP;
 
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_2_ATTACK;
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_2_HP;
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_7_ATTACK;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_2_ATTACK;
-
-   console.log("Hp is " + newPlayerTwo.hp);
-   console.log("Attk is " + newPlayerTwo.attk);
+   console.log(" Player1 was attacked ! Hp is " + newPlayer1.hp);
+   console.log("Attk did " + newPlayerTwo.attk + " Damage");
+   console.log("Current player2 hp is " + newPlayerTwo.hp );
 
   });
 
    $( "#element8" ).click(function() {
    console.log( "element8" );
 
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_3_ATTACK;
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_3_HP;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_8_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_8_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_3_ATTACK;
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_8_ATTACK;
 
-   console.log("Hp is " + newPlayerTwo.hp);
-   console.log("Attk is " + newPlayerTwo.attk);
+   console.log(" Player1 was attacked ! Hp is " + newPlayer1.hp);
+   console.log("Attk did " + newPlayerTwo.attk + " Damage");
+   console.log("Current player2 hp is " + newPlayerTwo.hp );
 
   });
 
     $( "#element9" ).click(function() {
    console.log( "element9" );
 
-    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_4_ATTACK;
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_4_HP;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_9_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_9_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_4_ATTACK;
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_9_ATTACK;
 
-   console.log("Hp is " + newPlayerTwo.hp);
-   console.log("Attk is " + newPlayerTwo.attk);
+   console.log(" Player1 was attacked ! Hp is " + newPlayer1.hp);
+   console.log("Attk did " + newPlayerTwo.attk + " Damage");
+   console.log("Current player2 hp is " + newPlayerTwo.hp );
+
 
   });
 
    $( "#element10" ).click(function() {
    console.log( "element10" );
 
-  newPlayer1.hp = newPlayer1.hp + ELEMENT_5_HP;
-  console.log("Hp is " +newPlayer1.hp);
+  newPlayerTwo.hp = newPlayerTwo.hp + ELEMENT_5_HP;
+  console.log("Current player2 hp is " +newPlayerTwo.hp);
 
   });
 
@@ -207,17 +217,6 @@ console.log("Hp is " + newPlayer1.hp);
      playerTwo ;
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 //Stage generate function
 function stagegen(){
