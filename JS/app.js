@@ -94,7 +94,7 @@ this.input = " ";
 
    alert(" Player2 was attacked ! Hp is " + newPlayerTwo.hp);
    alert("Attk did " + newPlayer1.attk + " Damage");
-   calert("Current player1 hp is " + newPlayer1.hp );
+   alert("Current player1 hp is " + newPlayer1.hp );
    document.getElementById("meter2").innerHTML = newPlayerTwo.hp;
 
   });
@@ -128,10 +128,10 @@ this.input = " ";
    $( "#element6" ).click(function() {
    console.log( "element6" );
 
-   newPlayer1.hp = newPlayer1.hp - ELEMENT_6_ATTACK;
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_6_HP;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_1_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_6_ATTACK;
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_1_ATTACK;
 
    alert(" Player1 was attacked ! Hp is " + newPlayer1.hp);
    alert("Attk did " + newPlayerTwo.attk + " Damage");
@@ -142,13 +142,13 @@ this.input = " ";
 
   $( "#element7" ).click(function() {
    console.log( "element7" );
-   newPlayer1.hp = newPlayer1.hp - ELEMENT_7_ATTACK;
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_7_HP;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_2_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_2_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_7_ATTACK;
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_2_ATTACK;
 
    alert(" Player1 was attacked ! Hp is " + newPlayer1.hp);
-   calert("Attk did " + newPlayerTwo.attk + " Damage");
+   alert("Attk did " + newPlayerTwo.attk + " Damage");
    alert("Current player2 hp is " + newPlayerTwo.hp );
    document.getElementById("meter1").innerHTML = newPlayer1.hp;
   });
@@ -156,10 +156,10 @@ this.input = " ";
    $( "#element8" ).click(function() {
    console.log( "element8" );
 
-   newPlayer1.hp = newPlayer1.hp - ELEMENT_8_ATTACK;
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_8_HP;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_3_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_3_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_8_ATTACK;
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_3_ATTACK;
 
    alert(" Player1 was attacked ! Hp is " + newPlayer1.hp);
    alert("Attk did " + newPlayerTwo.attk + " Damage");
@@ -171,10 +171,10 @@ this.input = " ";
     $( "#element9" ).click(function() {
    console.log( "element9" );
 
-   newPlayer1.hp = newPlayer1.hp - ELEMENT_9_ATTACK;
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_9_HP;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_4_ATTACK;
+   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_4_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_9_ATTACK;
+   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_4_ATTACK;
 
    alert(" Player1 was attacked ! Hp is " + newPlayer1.hp);
    alert("Attk did " + newPlayerTwo.attk + " Damage");
