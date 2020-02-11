@@ -52,11 +52,10 @@ this.input = " ";
    newPlayer1.hp = newPlayer1.hp - ELEMENT_1_ATTACK;
    newPlayer1.hp = newPlayer1.hp - ELEMENT_1_HP;
 
-   console.log(newPlayer1.hp);
+   newPlayer1.attk = newPlayerTwo.hp -ELEMENT_1_ATTACK;
 
-
-   // let hpToTakeAway = "";
-   // let attackDamage = "";
+   console.log("Hp is " + newPlayer1.hp);
+   console.log("Attk is " + newPlayer1.attk);
 
   });
 
@@ -65,7 +64,10 @@ this.input = " ";
 
   newPlayer1.hp = newPlayer1.hp - ELEMENT_2_ATTACK;
   newPlayer1.hp = newPlayer1.hp + ELEMENT_2_HP;
-console.log(newPlayer1.hp);
+
+  newPlayer1.attk = newPlayerTwo.hp -ELEMENT_2_ATTACK;
+console.log("Hp is " + newPlayer1.hp);
+   console.log("Attk is " + newPlayer1.attk);
   });
 
    $( "#element3" ).click(function() {
@@ -73,7 +75,10 @@ console.log(newPlayer1.hp);
 
   newPlayer1.hp = newPlayer1.hp - ELEMENT_3_ATTACK;
    newPlayer1.hp = newPlayer1.hp + ELEMENT_3_HP;
-console.log(newPlayer1.hp);
+
+   newPlayer1.attk = newPlayerTwo.hp -ELEMENT_3_ATTACK;
+console.log("Hp is " + newPlayer1.hp);
+   console.log("Attk is " + newPlayer1.attk);
   });
 
     $( "#element4" ).click(function() {
@@ -81,14 +86,17 @@ console.log(newPlayer1.hp);
 
    newPlayer1.hp = newPlayer1.hp - ELEMENT_4_ATTACK;
    newPlayer1.hp = newPlayer1.hp + ELEMENT_4_HP;
-   console.log(newPlayer1.hp);
+
+   newPlayer1.attk = newPlayerTwo.hp -ELEMENT_4_ATTACK;
+   console.log("Hp is " + newPlayer1.hp);
+   console.log("Attk is " + newPlayer1.attk);
   });
 
    $( "#element5" ).click(function() {
    console.log( "element5" );
 
   newPlayer1.hp = newPlayer1.hp + ELEMENT_5_HP;
-  console.log(newPlayer1.hp);
+  console.log("Hp is " +newPlayer1.hp);
 
   });
 
