@@ -1,4 +1,3 @@
-
 const ELEMENT_1_ATTACK = 8;
 const ELEMENT_1_HP = 1;
 
@@ -24,7 +23,7 @@ $(document).ready(function(){
 class player1{
 constructor(){
 
- this.hp = 20;
+this.hp = 50;
 this.input = " ";
 //this.userInput = $(input[type = "button"]).val();
 
@@ -36,7 +35,7 @@ this.input = " ";
 class playerTwo{
 constructor(){
 
-this.hp= 20;
+this.hp= 50;
 this.input = " ";
 // const userInput = $(input[type = "button"]).val();
   }
@@ -45,6 +44,9 @@ this.input = " ";
 
    let newPlayer1 = new player1();
    let newPlayerTwo = new playerTwo();
+
+
+   $("#player1")
 
    //Player 1 Buttons
  $( "#element1" ).click(function() {
@@ -78,7 +80,8 @@ console.log("Hp is " + newPlayer1.hp);
    newPlayer1.hp = newPlayer1.hp + ELEMENT_3_HP;
 
    newPlayer1.attk = newPlayerTwo.hp -ELEMENT_3_ATTACK;
-console.log("Hp is " + newPlayer1.hp);
+
+   console.log("Hp is " + newPlayer1.hp);
    console.log("Attk is " + newPlayer1.attk);
   });
 
@@ -89,6 +92,7 @@ console.log("Hp is " + newPlayer1.hp);
    newPlayer1.hp = newPlayer1.hp + ELEMENT_4_HP;
 
    newPlayer1.attk = newPlayerTwo.hp -ELEMENT_4_ATTACK;
+
    console.log("Hp is " + newPlayer1.hp);
    console.log("Attk is " + newPlayer1.attk);
   });
@@ -165,6 +169,26 @@ console.log("Hp is " + newPlayer1.hp);
 
    // let newPlayer1 = new player1();
    // let newPlayerTwo = new playerTwo();
+
+     player1 = prompt("Please enter your name", " ");
+
+    if (player1!= null) {
+
+    document.getElementById("player1").innerHTML =
+
+     player1 ;
+
+}
+
+     player1 = prompt("Please enter your name", " ");
+
+    if (playerTwo!= null) {
+
+    document.getElementById("playerTwo").innerHTML =
+
+     player1 ;
+
+}
 
 
 
