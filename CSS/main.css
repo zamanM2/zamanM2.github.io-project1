@@ -70,7 +70,7 @@ justify-content:flex-end;
 }
 
 #meter1 {
-  height: 20px;  /* Can be anything */
+  height: 10px;
   position: relative;
   background: purple;
   -moz-border-radius: 25px;
@@ -81,7 +81,7 @@ justify-content:flex-end;
 }
 
 #meter2 {
-  height: 20px;  /* Can be anything */
+  height: 10px;
   position: relative;
   background: gold;
   -moz-border-radius: 25px;
@@ -104,4 +104,13 @@ justify-content:flex-end;
   );
   position: relative;
   overflow: hidden;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
 }
