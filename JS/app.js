@@ -119,6 +119,7 @@ this.input = " ";
 
   newPlayer1.hp = newPlayer1.hp + ELEMENT_5_HP;
   alert("Hp is " +newPlayer1.hp);
+   document.getElementById("meter1").innerHTML = newPlayer1.hp;
 
   });
 
@@ -187,7 +188,8 @@ this.input = " ";
    console.log( "element10" );
 
   newPlayerTwo.hp = newPlayerTwo.hp + ELEMENT_5_HP;
-  console.log("Current player2 hp is " +newPlayerTwo.hp);
+  alert("Current player2 hp is " +newPlayerTwo.hp);
+  document.getElementById("meter2").innerHTML = newPlayerTwo.hp;
 
   });
 
