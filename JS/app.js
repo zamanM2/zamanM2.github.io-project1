@@ -48,6 +48,8 @@ this.input = " ";
 
    $("#player1")
 
+
+
    //Player 1 Buttons
  $( "#element1" ).click(function() {
    console.log( "element1" );
@@ -170,25 +172,27 @@ console.log("Hp is " + newPlayer1.hp);
    // let newPlayer1 = new player1();
    // let newPlayerTwo = new playerTwo();
 
-     player1 = prompt("Please enter your name", " ");
 
-    if (player1!= null) {
+      //Ask User  Twice for Names
+//      player1 = prompt("Please enter your name", " ");
 
-    document.getElementById("player1").innerHTML =
+//     if (player1!= null) {
 
-     player1 ;
+//     document.getElementById("player1").innerHTML =
 
-}
+//      player1 ;
 
-     player1 = prompt("Please enter your name", " ");
+// }
 
-    if (playerTwo!= null) {
+//      player1 = prompt("Please enter your name", " ");
 
-    document.getElementById("playerTwo").innerHTML =
+//     if (playerTwo!= null) {
 
-     player1 ;
+//     document.getElementById("playerTwo").innerHTML =
 
-}
+//      player1 ;
+
+// }
 
 
 
