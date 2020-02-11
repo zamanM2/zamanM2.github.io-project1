@@ -12,9 +12,10 @@ const ELEMENT_4_HP = 3;
 
 const ELEMENT_5_HP = 5;
 
+// Hide all the characters from appearing untill one is selected by player
 document.getElementById("sub").style.display = "none";
 document.getElementById("scorpion").style.display = "none";
-document.getElementById("raiden").style.display = "none";
+document.getElementById("raiden").style.display = " display";
 document.getElementById("shao").style.display = "none";
 
 
@@ -174,30 +175,45 @@ console.log("Hp is " + newPlayer1.hp);
 
   });
 
-   // let newPlayer1 = new player1();
-   // let newPlayerTwo = new playerTwo();
+//Ask User  Twice for Names
+     player1 = prompt("Please enter your name", " ");
+
+    if (player1!= null) {
+
+    document.getElementById("player1").innerHTML =
+
+     player1 ;
+}
+
+   //   player1 = prompt("Choose your avatar");
+
+   //  if (player1!= null) {
+   //  $( "#element8" ).click(function() {
+   // console.log( "element8" );
+   //  //document.getElementById("sub"||"shao"||"raiden"||"scorpion").innerHTML =
+
+   //   document.getElementById("scorpion").style.display;
+   //  }
+//}
 
 
-      //Ask User  Twice for Names
-//      player1 = prompt("Please enter your name", " ");
 
-//     if (player1!= null) {
+     playerTwo = prompt("Please enter your name", " ");
 
-//     document.getElementById("player1").innerHTML =
+    if (playerTwo!= null) {
 
-//      player1 ;
+    document.getElementById("playerTwo").innerHTML =
 
-// }
+     playerTwo ;
 
-//      player1 = prompt("Please enter your name", " ");
+}
 
-//     if (playerTwo!= null) {
 
-//     document.getElementById("playerTwo").innerHTML =
 
-//      player1 ;
 
-// }
+
+
+
 
 
 
