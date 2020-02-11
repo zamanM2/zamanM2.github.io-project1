@@ -60,9 +60,11 @@ this.input = " ";
    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_ATTACK;
    newPlayer1.hp = newPlayer1.hp - ELEMENT_1_HP;
 
-   newPlayer1.attk = newPlayerTwo.hp -ELEMENT_1_ATTACK;
+   newPlayer1.attk =ELEMENT_1_ATTACK;
 
    document.getElementById("meter2").innerHTML = newPlayerTwo.hp;
+   document.getElementById("meter1").innerHTML = newPlayer1.hp;
+
 
    alert(" Player2 was attacked ! Hp is " + newPlayerTwo.hp);
    alert("Attk did " + newPlayer1.attk + " Damage");
@@ -73,10 +75,14 @@ this.input = " ";
   $( "#element2" ).click(function() {
    console.log( "element2" );
 
-     newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_2_ATTACK;
-   newPlayer1.hp = newPlayer1.hp - ELEMENT_2_HP;
+    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_ATTACK;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_1_HP;
 
-   newPlayer1.attk = newPlayerTwo.hp -ELEMENT_2_ATTACK;
+   newPlayer1.attk =ELEMENT_1_ATTACK;
+
+   document.getElementById("meter2").innerHTML = newPlayerTwo.hp;
+   document.getElementById("meter1").innerHTML = newPlayer1.hp;
+
 
    alert(" Player2 was attacked ! Hp is " + newPlayerTwo.hp);
    alert("Attk did " + newPlayer1.attk + " Damage");
@@ -87,10 +93,14 @@ this.input = " ";
    $( "#element3" ).click(function() {
    console.log( "element3" );
 
-    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_3_ATTACK;
-   newPlayer1.hp = newPlayer1.hp - ELEMENT_3_HP;
+    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_ATTACK;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_1_HP;
 
-   newPlayer1.attk = newPlayerTwo.hp -ELEMENT_3_ATTACK;
+   newPlayer1.attk =ELEMENT_1_ATTACK;
+
+   document.getElementById("meter2").innerHTML = newPlayerTwo.hp;
+   document.getElementById("meter1").innerHTML = newPlayer1.hp;
+
 
    alert(" Player2 was attacked ! Hp is " + newPlayerTwo.hp);
    alert("Attk did " + newPlayer1.attk + " Damage");
@@ -102,10 +112,14 @@ this.input = " ";
     $( "#element4" ).click(function() {
    console.log( "element4" );
 
-   newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_4_ATTACK;
-   newPlayer1.hp = newPlayer1.hp - ELEMENT_4_HP;
+    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_ATTACK;
+   newPlayer1.hp = newPlayer1.hp - ELEMENT_1_HP;
 
-   newPlayer1.attk = newPlayerTwo.hp -ELEMENT_4_ATTACK;
+   newPlayer1.attk =ELEMENT_1_ATTACK;
+
+   document.getElementById("meter2").innerHTML = newPlayerTwo.hp;
+   document.getElementById("meter1").innerHTML = newPlayer1.hp;
+
 
    alert(" Player2 was attacked ! Hp is " + newPlayerTwo.hp);
    alert("Attk did " + newPlayer1.attk + " Damage");
@@ -131,26 +145,29 @@ this.input = " ";
    newPlayer1.hp = newPlayer1.hp - ELEMENT_1_ATTACK;
    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_1_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_1_ATTACK;
+   newPlayerTwo.attk = ELEMENT_1_ATTACK;
 
    alert(" Player1 was attacked ! Hp is " + newPlayer1.hp);
    alert("Attk did " + newPlayerTwo.attk + " Damage");
    alert("Current player2 hp is " + newPlayerTwo.hp );
   document.getElementById("meter1").innerHTML = newPlayer1.hp;
+  document.getElementById("meter2").innerHTML = newPlayerTwo.hp;
 
   });
 
   $( "#element7" ).click(function() {
    console.log( "element7" );
+
    newPlayer1.hp = newPlayer1.hp - ELEMENT_2_ATTACK;
    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_2_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_2_ATTACK;
+   newPlayerTwo.attk = ELEMENT_2_ATTACK;
 
    alert(" Player1 was attacked ! Hp is " + newPlayer1.hp);
    alert("Attk did " + newPlayerTwo.attk + " Damage");
    alert("Current player2 hp is " + newPlayerTwo.hp );
-   document.getElementById("meter1").innerHTML = newPlayer1.hp;
+  document.getElementById("meter1").innerHTML = newPlayer1.hp;
+  document.getElementById("meter2").innerHTML = newPlayerTwo.hp;
   });
 
    $( "#element8" ).click(function() {
@@ -159,12 +176,13 @@ this.input = " ";
    newPlayer1.hp = newPlayer1.hp - ELEMENT_3_ATTACK;
    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_3_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_3_ATTACK;
+   newPlayerTwo.attk = ELEMENT_3_ATTACK;
 
    alert(" Player1 was attacked ! Hp is " + newPlayer1.hp);
    alert("Attk did " + newPlayerTwo.attk + " Damage");
    alert("Current player2 hp is " + newPlayerTwo.hp );
   document.getElementById("meter1").innerHTML = newPlayer1.hp;
+  document.getElementById("meter2").innerHTML = newPlayerTwo.hp;
 
   });
 
@@ -174,12 +192,13 @@ this.input = " ";
    newPlayer1.hp = newPlayer1.hp - ELEMENT_4_ATTACK;
    newPlayerTwo.hp = newPlayerTwo.hp - ELEMENT_4_HP;
 
-   newPlayerTwo.attk = newPlayer1.hp -ELEMENT_4_ATTACK;
+   newPlayerTwo.attk = ELEMENT_4_ATTACK;
 
    alert(" Player1 was attacked ! Hp is " + newPlayer1.hp);
    alert("Attk did " + newPlayerTwo.attk + " Damage");
    alert("Current player2 hp is " + newPlayerTwo.hp );
-   document.getElementById("meter1").innerHTML = newPlayer1.hp;
+  document.getElementById("meter1").innerHTML = newPlayer1.hp;
+  document.getElementById("meter2").innerHTML = newPlayerTwo.hp;
 
 
   });
